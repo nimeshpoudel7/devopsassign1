@@ -8,12 +8,32 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            padding: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
         }
 
         h1 {
             text-align: center;
             color: #333;
+            padding-top: 20px;
         }
 
         .group-info {
@@ -26,6 +46,7 @@
             flex-wrap: wrap;
             justify-content: center;
             gap: 20px;
+            padding: 20px;
         }
 
         .member {
@@ -60,38 +81,43 @@
 </head>
 
 <body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="feature.html">Feature</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
     <h1>Welcome to My HTML Page</h1>
     <p class="group-info">We are collaborating for assignment 1 of the DevOps course. Our group consists of 6 people.</p>
 
     <div class="members-container">
         <div class="member">
-            <img src="scr\nimesh.png" alt="Nimesh Poudel">
+            <img src="scr/nimesh.png" alt="Nimesh Poudel">
             <div class="member-name">Nimesh Poudel</div>
             <div class="symbol-number">C0938863</div>
         </div>
         <div class="member">
-            <img src="scr\buddhika.jpg" alt="Buddika Gurung">
+            <img src="scr/buddhika.jpg" alt="Buddika Gurung">
             <div class="member-name">Buddika Gurung</div>
             <div class="symbol-number">C0940704</div>
         </div>
         <div class="member">
-            <img src="scr\kushal.png" alt="Kushal Raj Sharma">
+            <img src="scr/kushal.png" alt="Kushal Raj Sharma">
             <div class="member-name">Kushal Raj Sharma</div>
             <div class="symbol-number">C0940005</div>
         </div>
         <div class="member">
-            <img src="scr\mabika.jpg" alt="Mabika Bohara">
+            <img src="scr/mabika.jpg" alt="Mabika Bohara">
             <div class="member-name">Mabika Bohara</div>
             <div class="symbol-number">C0942014</div>
         </div>
         <div class="member">
-            <img src="scr\jayant.png" alt="Jayant Nepal">
+            <img src="scr/jayant.png" alt="Jayant Nepal">
             <div class="member-name">Jayant Nepal</div>
             <div class="symbol-number">C0916300</div>
         </div>
-
     </div>
 </body>
 
 </html>
-
